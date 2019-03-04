@@ -1,2 +1,2 @@
 # Visual-Humor-Dataset
-Code repository for the anonymous submission.  
+Dataset Samples for our Anonymous Submission.
