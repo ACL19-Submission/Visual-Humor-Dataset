@@ -372,7 +372,7 @@ for epoch in range(opt.start_epoch + 1, opt.niter):
                     },
                    '%s/epoch_%d.pth' % (save_path, epoch))
         json.dump(history, open('%s/log.json' % (save_path),
-                                'w'))  # this is the problem with pytorch version 4 it will work on version 3 or less
+                                'w'))
         pickle.dump(history_pickle, open('%s/log.pickle' % (save_path), 'wb'))
 
 writer.close()
